@@ -1,0 +1,27 @@
+Artificial Social Network Generator
+
+a network generation model which incorporates the properties of small world and scale free networks
+with the additional advantage of having distinct community structures
+
+
+
+a python implementation of the network generation model described in:
+
+Arnaud Sallaberry, Faraz Zaidi, Guy Melançon. Model for Generating Artificial Social Networks
+having Community Structures with Small World and Scale Free Properties. Social Network Analysis
+and Mining, Springer, 2013, 3 (597-609). hal-00877852
+
+
+
+
+installation
+
+    - pip install -r requirements.txt
+
+
+
+usage
+
+    from ASNG import ASNG
+
+    G = asnG.generate_graph(cliques_min_size=1, cliques_max_size=5, number_of_cliques=10)
